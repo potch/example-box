@@ -1,0 +1,25 @@
+{
+  "name": "example-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "onchange -i index.js -- npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "codemirror": "^5.57.0",
+    "htm": "^3.0.4",
+    "onchange": "^7.0.2",
+    "preact": "^10.4.7",
+    "rollup": "^2.26.5",
+    "rollup-plugin-postcss": "^3.1.5",
+    "rollup-plugin-terser": "^7.0.0"
+  }
+}
